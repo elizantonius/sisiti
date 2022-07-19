@@ -39,7 +39,7 @@ $routes->get('/', 'Beranda::index');
 
 
 //Login & Register
-$routes->resource('Login');
+$routes->resource('login');
 
 
 //Pemesan
