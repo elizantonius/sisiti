@@ -41,6 +41,10 @@ $routes->get('/', 'Beranda::index');
 //Login & Register
 $routes->resource('Login');
 
+
+//Pemesan
+$routes->resource('pemesanan');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
