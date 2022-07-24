@@ -46,6 +46,10 @@ $routes->resource('daftar');
 //Pemesan
 $routes->resource('pemesanan');
 
+
+// Admin
+$routes->resource('admin/dashboard');
+
 /*
  * --------------------------------------------------------------------
  * Additional Routing
