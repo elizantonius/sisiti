@@ -40,6 +40,7 @@ $routes->get('/', 'Beranda::index');
 
 //Login & Register
 $routes->resource('login');
+$routes->resource('daftar');
 
 
 //Pemesan

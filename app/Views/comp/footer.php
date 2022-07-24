@@ -12,6 +12,10 @@
         </footer>
       </div>
 </div>
+
+      <!-- Sweet alert -->
+      <script src="<?= base_url()?>/public/alert/dist/sweetalert2.all.min.js"></script>
+
 </body>
 
 </html>

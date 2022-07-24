@@ -7,7 +7,7 @@
                     <img src="img/cars1.jpeg" class="card-img-top" alt="...">
                     <div class="card-body">
                       <h5 class="card-title">Cars</h5>
-                      <a href="pesanan.html" class="btn btn-primary">Beli Tiket</a>
+                      <a   class="btn btn-primary">Beli Tiket</a>
                     </div>
                   </div>
               </div>
