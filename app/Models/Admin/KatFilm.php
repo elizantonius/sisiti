@@ -4,17 +4,17 @@ namespace App\Models\Admin;
 
 use CodeIgniter\Model;
 
-class AddFilmM extends Model
+class KatFilm extends Model
 {
     protected $DBGroup          = 'default';
-    protected $table            = 'film';
+    protected $table            = 'kategori';
     protected $primaryKey       = 'id';
     protected $useAutoIncrement = true;
     protected $insertID         = 0;
     protected $returnType       = 'array';
     protected $useSoftDeletes   = false;
     protected $protectFields    = true;
-    protected $allowedFields    = ['id', 'judul','foto','deskripsi','kategori_id'];
+    protected $allowedFields    = ['id', 'nama_kategori'];
 
     // Dates
     protected $useTimestamps = false;
@@ -39,4 +39,13 @@ class AddFilmM extends Model
     protected $afterFind      = [];
     protected $beforeDelete   = [];
     protected $afterDelete    = [];
+
+    public function __construct()
+    {
+        $this->db = \Config\Database::connect();
+    }
+
+    public function getKat(){
+         return $this->db->table('kategori')->select('nama_kategori')->get()->getResultArray();
+    }
 }

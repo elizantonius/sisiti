@@ -59,11 +59,11 @@
                             <form action="/action_page.php">
                                 <label for="cars">Genre Film</label>
                                 <select name="cars" id="cars">
-                                    <option value="volvo">Volvo</option>
-                                    <option value="saab">Saab</option>
-                                    <option value="opel">Opel</option>
-                                    <option value="audi">Audi</option>
+                                <?php foreach ($list as $kat => $baris) { ?>
+                                    <option ><?=$baris['nama_kategori']; ?></option>
+                                    <?php }?>
                                 </select>
+                                
                             </form>
                         </div>
                         <!-- /.card-body -->
