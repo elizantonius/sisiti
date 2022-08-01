@@ -30,7 +30,7 @@
                         <div class="card-body">
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Judu Film</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Judul Film" name="judul">
                             </div>
 
                             <div class="form-group">
@@ -47,7 +47,7 @@
                             </div>
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Deskripsi</label>
-                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Deskripsi Film" name="deskripsi">
                             </div>
                             <div class="form-check">
                                 <input type="checkbox" class="form-check-input" id="exampleCheck1">
@@ -56,7 +56,7 @@
                         </div>
 
                         <div class="dropdown">
-                            <form action="/action_page.php">
+                            <form >
                                 <label for="cars">Genre Film</label>
                                 <select name="cars" id="cars">
                                 <?php foreach ($list as $kat => $baris) { ?>
@@ -69,5 +69,5 @@
                         <!-- /.card-body -->
 
                         <div class="card-footer">
-                            <button type="submit" class="btn btn-primary">Submit</button>
+                            <a type="submit" class="btn btn-primary" href="addfilm/tambahfilm">Submit</a>
                         </div>

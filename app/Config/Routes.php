@@ -50,6 +50,7 @@ $routes->resource('pemesanan');
 // Admin
 $routes->resource('admin/dashboard');
 $routes->resource('admin/addfilm');
+$routes->resource('admin/Addfilm/Tambahfilm');
 
 /*
  * --------------------------------------------------------------------
