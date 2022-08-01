@@ -40,6 +40,7 @@ $routes->get('/', 'Beranda::index');
 
 //Login & Register
 $routes->resource('login');
+$routes->resource('login/masuk');
 $routes->resource('daftar');
 
 
@@ -50,7 +51,7 @@ $routes->resource('pemesanan');
 // Admin
 $routes->resource('admin/dashboard');
 $routes->resource('admin/addfilm');
-$routes->resource('admin/Addfilm/Tambahfilm');
+$routes->resource('admin/addfilm/tambahfilm');
 
 /*
  * --------------------------------------------------------------------
