@@ -41,7 +41,7 @@ $routes->get('/', 'Beranda::index');
 //Login & Register
 $routes->resource('login');
 $routes->post('login/masuk', 'Login::Masuk');
-$routes->post('login/logout', 'Login::Logout');
+$routes->post('login/keluar', 'Login::Keluar');
 $routes->resource('daftar');
 
 

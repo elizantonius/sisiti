@@ -2,7 +2,7 @@
   <aside class="main-sidebar sidebar-dark-primary elevation-4">
     <!-- Brand Logo -->
     <a href="index3.html" class="brand-link">
-      
+
       <span class="brand-text font-weight-light">Cinema 1011</span>
     </a>
 
@@ -34,17 +34,17 @@
         <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
           <!-- Add icons to the links using the .nav-icon class
                with font-awesome or any other icon font library -->
-          
+
           <li class="nav-header">Dashboard</li>
           <li class="nav-item">
             <a href="addfilm" class="nav-link">
-              <i class="fas fa-circle nav-icon"></i>
+              <i class="fa-solid fa-film"></i>
               <p>Add Film</p>
             </a>
           </li>
           <li class="nav-item">
-            <a href="login/logout" class="nav-link">
-              <i class="fas fa-circle nav-icon"></i>
+            <a href="<?= base_url('login/keluar') ?>" class="nav-link">
+              <i class="nav-icon fas fa-sign-out-alt"></i>
               <p>Logout</p>
             </a>
           </li>
