@@ -79,7 +79,7 @@
         <div class="card">
             <div class="card-body login-card-body">
                 <p class="login-box-msg">Login</p>
-                <form action="../../index3.html" method="post">
+                <form action="login/masuk" method="post">
                     <div class="input-group mb-3">
                         <input type="email" class="form-control" placeholder="Email" name="email">
                         <div class="input-group-append">
@@ -107,7 +107,7 @@
                         </div>
 
                         <div class="col-4">
-                            <a type="submit" class="btn btn-primary btn-block" href="login/masuk">Masuk</a>
+                            <button type="submit" class="btn btn-primary btn-block">Masuk</button>
                         </div>
 
                     </div>

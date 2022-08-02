@@ -42,6 +42,12 @@
               <p>Add Film</p>
             </a>
           </li>
+          <li class="nav-item">
+            <a href="login/logout" class="nav-link">
+              <i class="fas fa-circle nav-icon"></i>
+              <p>Logout</p>
+            </a>
+          </li>
       </nav>
       <!-- /.sidebar-menu -->
     </div>

@@ -27,7 +27,7 @@ class Login extends BaseController
                 $data['isLogin'] = true;
                 $sesi->set($data);
                 if($data['role_id'] == 1){
-                    return redirect()->to(base_url('Admin/Dashboard'));
+                    return redirect()->to(base_url('admin/dashboard'));
                 } else{
                     return redirect()->to(base_url('Member/Dashboard'));
                 }
