@@ -2,6 +2,8 @@
 
 namespace Config;
 
+use CodeIgniter\Router\Router;
+
 // Create a new instance of our RouteCollection class.
 $routes = Services::routes();
 
@@ -35,14 +37,15 @@ $routes->set404Override();
 
 // We get a performance increase by specifying the default
 // route since we don't have to scan directories.
-$routes->get('/', 'Beranda::index');
+$routes->get('/', 'beranda::index');
 
 
 //Login & Register
 $routes->resource('login');
 $routes->post('login/masuk', 'Login::Masuk');
-$routes->post('login/keluar', 'Login::Keluar');
+$routes->get('keluar', 'Login::Keluar');
 $routes->resource('daftar');
+$routes->post('mendaftar', 'Daftar::Mendaftar');
 
 
 //Pemesan

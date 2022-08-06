@@ -44,6 +44,6 @@ class Login extends BaseController
     public function keluar(){
         $session = session();
         $session->destroy();
-        return redirect()->to(base_url('Beranda'));
+        return redirect()->to(base_url('beranda'));
     }
 }
