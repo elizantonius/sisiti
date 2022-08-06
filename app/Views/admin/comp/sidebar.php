@@ -13,7 +13,7 @@
         <div class="image">
         </div>
         <div class="info">
-          <a href="#" class="d-block">Alexander Pierce</a>
+          <a href="#" class="d-block"><?php echo session()->get('nama'); ?></a>
         </div>
       </div>
 
