@@ -21,7 +21,7 @@ class AddFilm extends BaseController
     }
 
 
-    public function Tambahfilm(){
+    public function tambahfilm(){
 
         $model = new AddFilmM();
         helper(['form', 'url']);

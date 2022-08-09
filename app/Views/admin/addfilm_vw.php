@@ -26,7 +26,7 @@
                     </div>
                     <!-- /.card-header -->
                     <!-- form start -->
-                    <form>
+                    <form action="<?= base_url('admin/addfilm/tambahfilm'); ?>" method="post">
                         <div class="card-body">
                             <div class="form-group">
                                 <label for="exampleInputEmail1">Judu Film</label>
@@ -71,3 +71,4 @@
                         <div class="card-footer">
                             <a type="submit" class="btn btn-primary" href="addfilm/tambahfilm">Submit</a>
                         </div>
+                    </form>
